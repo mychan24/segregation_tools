@@ -1,4 +1,4 @@
-function [z, r, tp] = testpoo(cii, roiL, roiR)
+function [z, r, tp] = fsLR2roizmat_ciftidat_giftinode(cii, roiL, roiR)
     % DESCRIPTION:
     %   Extract node time series from 32k by 32k fsLR saved in CIFTI dtseries. 
     %   Outputs correlation matrix (r), fishers-z-transfromed corr matrix (z),
